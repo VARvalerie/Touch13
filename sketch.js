@@ -70,7 +70,7 @@ function initCaptureDevice() {
 function playSample(_sample) {
   if(_sample === null) {console.log('[playSample] _sample === null'); return;}
   if(_sample === undefined) {console.log('[playSample] _sample === undefined'); return;}
-  if(!_sample.isPlaying()) _sample.play();
+  //if(!_sample.isPlaying()) _sample.play();
 }
 
 function setup() {
